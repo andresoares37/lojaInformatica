@@ -38,6 +38,18 @@ public class Computador {
 		this.placaDeVideoDedicada = placaDeVideoDedicada;
 	}
 
+	public void calcularDesconto(double aliquota) {
+		this.preco = preco - (preco * aliquota / 100);
+	}
+
+	public boolean adicionarMemoriaRam(int quantidade) {
+		if (quantidade % 2 == 1)
+			return false;
+		memoriaRam += quantidade;
+		preco += quantidade * 150;
+		return true;
+	}
+
 	public String getModelo() {
 		return modelo;
 	}

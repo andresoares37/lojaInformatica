@@ -7,10 +7,21 @@ public class Televisao {
 
 	private int canal = 2;
 
+	
+	
+	
 	public void ligar() {
+		
 		ligado = true;
 	}
 
+	
+	
+	
+	
+	
+	
+	
 	public void desligar() {
 		ligado = false;
 	}
