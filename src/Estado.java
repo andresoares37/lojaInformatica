@@ -1,7 +1,7 @@
 public class Estado {
 
-	private String nome;
+	  String nome;
 
-	private Pais pais;
+	  Pais pais;
 
 }

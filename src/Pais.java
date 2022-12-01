@@ -1,5 +1,5 @@
 public class Pais {
 
-	private String nome;
+	  String nome;
 
 }
