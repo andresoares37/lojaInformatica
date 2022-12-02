@@ -8,7 +8,10 @@ public class App {
 
 		Computador dell = new Computador();
 
-		dell.setDataDeFabricacao(LocalDate.now()).setEspacoHD(1000).setMarca("Dell Vostro").setModelo("Vostro 14253")
+		dell.setDataDeFabricacao(LocalDate.now())
+		.setEspacoHD(1000)
+		.setMarca("Dell Vostro")
+		.setModelo("Vostro")
 				.setMemoriaRam(32).setPlacaDeVideoDedicada(true).setProcessador("i9").setPreco(7000);
 
 		Fabricante fabricante = new Fabricante();
