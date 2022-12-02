@@ -4,13 +4,15 @@ public class App {
 
 	public static void main(String[] args) {
 
+		// Clean Code
+
 		Computador dell = new Computador();
 
 		dell.setDataDeFabricacao(LocalDate.now()).setEspacoHD(1000).setMarca("Dell Vostro").setModelo("Vostro 14253")
 				.setMemoriaRam(32).setPlacaDeVideoDedicada(true).setProcessador("i9").setPreco(7000);
 
 		Fabricante fabricante = new Fabricante();
-		fabricante.nome = "Dell Computadores da Amazonia";
+		fabricante.setNome("Dell Computadores da Amazonia");
 
 		Endereco endereco = new Endereco("01015000");
 
@@ -29,7 +31,7 @@ public class App {
 		saoPaulo.estado = sp;
 		saoPaulo.nome = "São Paulo";
 
-		fabricante.endereco = endereco;
+		fabricante.setEndereco(endereco);
 
 		dell.setFabricante(fabricante);
 
