@@ -17,6 +17,7 @@ public class Endereco {
 	}
 
 	public void setCep(String cep) {
+		
 		this.codigoDeEnderecamentoPostal = cep;
 	}
 

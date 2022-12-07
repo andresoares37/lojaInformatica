@@ -23,4 +23,28 @@ public class Televisao {
 		volume = volume - 1;
 	}
 
+	public boolean isLigado() {
+		return ligado;
+	}
+
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public int getVolume() {
+		return volume;
+	}
+
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+
+	public int getCanal() {
+		return canal;
+	}
+
+	public void setCanal(int canal) {
+		this.canal = canal;
+	}
+
 }

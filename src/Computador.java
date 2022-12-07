@@ -1,6 +1,8 @@
 import java.time.LocalDate;
 
-public class Computador {
+public class Computador implements Persistivel {
+
+	private Long id;
 
 	private String modelo;
 
@@ -140,6 +142,39 @@ public class Computador {
 				.append(", processador=").append(processador).append(", placaDeVideoDedicada=")
 				.append(placaDeVideoDedicada).append("]");
 		return builder.toString();
+	}
+
+	@Override
+	public Persistivel cadastrar(Persistivel p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Persistivel consultarPorId(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Persistivel alterar(Persistivel p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean excluir(long id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public long getId() {
+		return id;
+	}
+
+	public Computador setId(Long id) {
+		this.id = id;
+		return this;
 	}
 
 }
