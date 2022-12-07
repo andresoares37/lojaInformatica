@@ -7,21 +7,10 @@ public class Televisao {
 
 	private int canal = 2;
 
-	
-	
-	
 	public void ligar() {
-		
 		ligado = true;
 	}
 
-	
-	
-	
-	
-	
-	
-	
 	public void desligar() {
 		ligado = false;
 	}
@@ -32,6 +21,30 @@ public class Televisao {
 
 	public void diminuirVolume() {
 		volume = volume - 1;
+	}
+
+	public boolean isLigado() {
+		return ligado;
+	}
+
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public int getVolume() {
+		return volume;
+	}
+
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+
+	public int getCanal() {
+		return canal;
+	}
+
+	public void setCanal(int canal) {
+		this.canal = canal;
 	}
 
 }

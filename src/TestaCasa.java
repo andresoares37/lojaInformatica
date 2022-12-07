@@ -2,7 +2,7 @@ import javax.swing.JColorChooser;
 
 public class TestaCasa {
 
- 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 
 		Casa lucas = new Casa("Lucas");
