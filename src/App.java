@@ -3,9 +3,7 @@ import java.time.LocalDate;
 public class App {
 
 	public static void main(String[] args) {
-
-		// Clean Code
-
+	 
 		Computador dell = new Computador();
 
 		dell.setDataDeFabricacao(LocalDate.now())
@@ -50,7 +48,7 @@ public class App {
 			System.out.println("Não foi possível adicionar a quantidade de memória informada");
 		}
 
-		// dell.calcularDesconto(10);
+		dell.calcularDesconto(10);
 
 		System.out.println(dell);
 
