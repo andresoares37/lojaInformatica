@@ -3,16 +3,16 @@ import java.time.LocalDate;
 public class App {
 
 	public static void main(String[] args) {
-
-		// Clean Code
-
+	 
 		Computador dell = new Computador();
 
 		dell.setDataDeFabricacao(LocalDate.now())
-		.setEspacoHD(1000)
-		.setMarca("Dell Vostro")
-		.setModelo("Vostro")
-				.setMemoriaRam(32).setPlacaDeVideoDedicada(true).setProcessador("i9").setPreco(7000);
+				.setEspacoHD(1000)
+				.setMarca("Dell Vostro")
+				.setModelo("Vostro")
+				.setMemoriaRam(32)
+				.setPlacaDeVideoDedicada(true)
+				.setProcessador("i9").setPreco(7000);
 
 		Fabricante fabricante = new Fabricante();
 		fabricante.setNome("Dell Computadores da Amazonia");
@@ -48,7 +48,7 @@ public class App {
 			System.out.println("Não foi possível adicionar a quantidade de memória informada");
 		}
 
-		// dell.calcularDesconto(10);
+		dell.calcularDesconto(10);
 
 		System.out.println(dell);
 
