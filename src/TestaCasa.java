@@ -9,7 +9,7 @@ public class TestaCasa {
 
 		Casa tiago = new Casa("Tiago");
 
-		var phablo = new Casa("Phablo");
+		Casa phablo = new Casa("Phablo");
 
 		phablo.setCor(JColorChooser.showDialog(null, "Escolher a cor", Casa.getCor()));
 
