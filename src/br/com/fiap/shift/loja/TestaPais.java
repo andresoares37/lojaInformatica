@@ -1,4 +1,6 @@
-package br.com.fiap.shift.loja.model;
+package br.com.fiap.shift.loja;
+
+import br.com.fiap.shift.loja.model.Pais;
 
 public class TestaPais {
 

@@ -1,5 +1,10 @@
-package br.com.fiap.shift.loja.model;
+package br.com.fiap.shift.loja;
+
 import javax.swing.JColorChooser;
+
+import static java.lang.Math.*;
+
+import br.com.fiap.shift.loja.model.*;
 
 public class TestaCasa {
 
@@ -13,6 +18,10 @@ public class TestaCasa {
 		Casa phablo = new Casa("Phablo");
 
 		phablo.setCor(JColorChooser.showDialog(null, "Escolher a cor", Casa.getCor()));
+
+		double resultado = sqrt(9);
+
+		System.out.println(resultado);
 
 		System.out.println(lucas);
 		System.out.println(tiago);
