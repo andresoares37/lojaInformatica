@@ -1,3 +1,4 @@
+package br.com.fiap.shift.loja.model;
 public class Endereco {
 
 	private String logradouro;

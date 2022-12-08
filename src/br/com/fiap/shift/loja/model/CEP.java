@@ -1,3 +1,4 @@
+package br.com.fiap.shift.loja.model;
 import javax.swing.JOptionPane;
 
 public class CEP implements Validavel<String> {
@@ -5,6 +6,7 @@ public class CEP implements Validavel<String> {
 	private String codigoDeEnderecamentoPostal;
 
 	public CEP(String cep) {
+		
 		if (validar(cep)) {
 			this.codigoDeEnderecamentoPostal = cep;
 		} else {

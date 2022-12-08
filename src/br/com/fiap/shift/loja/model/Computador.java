@@ -1,3 +1,4 @@
+package br.com.fiap.shift.loja.model;
 import java.time.LocalDate;
 
 public class Computador implements Persistivel {
@@ -22,9 +23,7 @@ public class Computador implements Persistivel {
 
 	private boolean placaDeVideoDedicada;
 
-	public Computador() {
-
-	}
+	public Computador() { }
 
 	public Computador(String modelo, String marca, Fabricante fabricante, LocalDate dataDeFabricacao, double preco,
 			int memoriaRam, int espacoHD, String processador, boolean placaDeVideoDedicada) {

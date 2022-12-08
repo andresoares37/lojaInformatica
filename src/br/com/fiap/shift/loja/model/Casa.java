@@ -1,3 +1,4 @@
+package br.com.fiap.shift.loja.model;
 import java.awt.Color;
 
 public class Casa {
