@@ -1,5 +1,9 @@
+package br.com.fiap.shift.loja;
 import java.time.LocalDate;
 
+import br.com.fiap.shift.loja.model.*;
+
+ 
 public class App {
 
 	public static void main(String[] args) {
@@ -24,15 +28,15 @@ public class App {
 		endereco.setComplemento("Conj 100");
 		endereco.setNumero("500");
 
-		Pais br = new Pais();
-		br.nome = "Brasil";
+		Pais br = new Pais("Brasil");
+	 
 
 		Estado sp = new Estado();
-		sp.pais = br;
+		sp.setPais(br); 
 
 		Cidade saoPaulo = new Cidade();
-		saoPaulo.estado = sp;
-		saoPaulo.nome = "São Paulo";
+		saoPaulo.setEstado(sp); 
+		saoPaulo.setNome("São Paulo");
 
 		fabricante.setEndereco(endereco);
 

@@ -1,3 +1,4 @@
+package br.com.fiap.shift.loja.model;
 import javax.swing.JColorChooser;
 
 public class TestaCasa {
